@@ -5,9 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "YbridOpus",
-    platforms: [
-        .macOS(.v10_10), .iOS(.v9)
-    ],
+    // platforms: [
+    //     .macOS(.v10_10), .iOS(.v9)
+    // ],
     products: [
         .library(
             name: "YbridOpus",
